@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 Hacker News App
 
-## Getting Started
+![Hacker News Logo](https://news.ycombinator.com/favicon.ico)
 
-First, run the development server:
+## 📖 Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hacker News App es una aplicación que permite a los usuarios leer las últimas noticias de tecnología y startups publicadas en [Hacker News](https://news.ycombinator.com/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Tecnología | Descripción                                      |
+| ---------- | ------------------------------------------------ |
+| React      | Biblioteca de JavaScript para construir la UI.   |
+| Nextjs     | Framework React                                  |
+| Axios      | Cliente HTTP para realizar solicitudes a la API. |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Instalación
 
-## Learn More
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/hacker-news-app.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd hacker-news-app
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia la aplicación:
+   ```bash
+   npm start
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## 🧑‍💻 Contribuciones
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+¡Las contribuciones son bienvenidas! Por favor, sigue los pasos a continuación para contribuir:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
-## Deploy on Vercel
+## 📞 Contacto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para cualquier consulta o sugerencia, puedes contactarnos en [daniel.antolinez0505@gmail.com](mailto:daniel.antolinez0505@gmail.com).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+¡Gracias por usar Hacker News App! 🚀
