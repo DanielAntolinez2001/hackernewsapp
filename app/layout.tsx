@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hacker News App",
-  description: "A modern Hacker News client built with Next.js",
+  description: "A modern Hacker News client built with Next.js and shadcn/ui",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );
